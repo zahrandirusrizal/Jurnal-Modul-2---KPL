@@ -161,5 +161,10 @@ namespace PraktikumModul2
             masukan_pertama = 0;
             masukan_kedua = 0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.label1.Text = "+";
+        }
     }
 }
